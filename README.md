@@ -1,6 +1,6 @@
 # 🧠 Computer Vision Projects by PR Lab – Summer Term 2024
 
-![Project Demo](images/prlab.png)
+![Project Demo](images/faulogo.png)(images/prlab.png)
 
 ### 📍 Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
 
