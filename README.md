@@ -1,5 +1,7 @@
 # 🧠 Computer Vision Projects by PR Lab – Summer Term 2024
 
+![Project Demo](images/prlab.png)
+
 ### 📍 Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
 
 Welcome to my collection of **Computer Vision projects** developed during the **Summer Term 2024** at **PR Lab, FAU Erlangen-Nürnberg**.  
