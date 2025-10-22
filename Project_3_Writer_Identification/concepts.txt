@@ -1,0 +1,31 @@
+'''#bag of visual words technique: clustering descriptors and finding cluster centers to create
+compact representation of the dataset to reduce the complexity'''
+
+'''aggregates local image descriptors (such as SIFT) into a single 
+fixed-length vector representation, which can then be used for tasks like image 
+classification or retrieval'''
+
+
+local descriptors lack global context so it needs to encode them into global descriptors by using vlad
+
+
+global desc provides compact and comprehensive representation of the image
+
+
+Vlad Steps:
+1. clustering: local descriptors are clustered using k-means to obtain cluster centers (visual words)
+2. assignment: each local descriptor is assigned to the nearest cluster centers
+3. residual calculation: compute the difference (residuals) bw each descriptors and its assigned cluster centre
+4. aggregation: aggregate the residuals for each clusters (sum pooling or gmp)
+5. apply power norm and l2 norm to enhance the robustness
+
+
+
+
+"""
+exepmlar classification: where a class is represented by one or more specific examples from training data
+It relies on examples from the training set.
+each class is represented by a single exemplar (example)
+we need SVM to do examplar classification.
+"""
+

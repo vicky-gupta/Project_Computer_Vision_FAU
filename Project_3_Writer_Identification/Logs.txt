@@ -1,0 +1,62 @@
+C:\Users\USER\anaconda3\python.exe "D:\Archit\Study Material FAU-AI\CV_Project\Exercise 3\skeleton.py" 
+----------------------------------------------------------------------------------------------------
+Arguments
+args: Namespace(labels_test='icdar17_labels_test.txt', labels_train='icdar17_labels_train.txt', suffix='_SIFT_patch_pr.pkl.gz', in_test='icdar17_local_features/test', in_train='icdar17_local_features/train', powernorm=True, gmp=False, gamma=1, C=1000, overwrite=True, evaluate=True, create_new_mus=True)
+----------------------------------------------------------------------------------------------------
+load data
+current directory: D:\Archit\Study Material FAU-AI\CV_Project\Exercise 3
+train files size: 1182
+train labels size: 1182
+----------------------------------------------------------------------------------------------------
+Going for loading random descriptors
+100%|██████████| 100/100 [00:02<00:00, 49.15it/s]
+> loaded 470776 descriptors:
+> compute dictionary
+Here for clustering the descriptors
+Descriptors shape:(470776, 64) and cluster centers shape: (100, 64)
+----------------------------------------------------------------------------------------------------
+> compute VLAD for test
+current directory: D:\Archit\Study Material FAU-AI\CV_Project\Exercise 3
+test files size: 3600
+test label size: 3600
+100%|██████████| 3600/3600 [04:01<00:00, 14.91it/s]
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+> evaluate test encodings
+Top-1 accuracy: 0.8247222222222222 - mAP: 0.6323658458211302
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+> compute VLAD for train
+current directory: D:\Archit\Study Material FAU-AI\CV_Project\Exercise 3
+train files size: 1182
+test labels size: 1182
+100%|██████████| 1182/1182 [01:22<00:00, 14.39it/s]
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+> evaluate train encodings
+Top-1 accuracy: 0.8730964467005076 - mAP: 0.7974622733911697
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+> compute VLAD for train (for E-SVM)
+Encodings shape: Test encodings 3600 and Train encodings1182
+Number of CPUs:  4
+multiprocessing
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+> evaluate results after ESVM
+Top-1 accuracy: 0.8877777777777778 - mAP: 0.7534793924582953
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+
+
+
+------------------------------------- --------------------------------------------------------------------
+without Normalization
+> evaluate test encodings
+Top-1 accuracy: 0.8088888888888889 - mAP: 0.6174459275605398
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+> compute VLAD for train
+current directory: D:\Archit\Study Material FAU-AI\CV_Project\Exercise 3
+train files size: 1182
+test labels size: 1182
+100%|██████████| 1182/1182 [01:18<00:00, 15.02it/s]
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+> evaluate train encodings
+Top-1 accuracy: 0.8671742808798646 - mAP: 0.7914342703653808
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+
+---------------------------------------------------------------------------------------------------------
