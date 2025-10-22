@@ -171,10 +171,10 @@ Implemented **open-set recognition** with pseudo-labeling to improve generalizat
 
 Feel free to connect or reach out for collaborations or research discussions!
 
-**Author:** *[Your Name]*  
+**Author:** *[Vicky Vicky]*  
 **Institution:** *Pattern Recognition Lab, FAU Erlangen-Nürnberg*  
-**Email:** *your.email@fau.de*  
-**GitHub:** [github.com/yourusername](https://github.com/yourusername)
+**Email:** *vicky.vicky@fau.de*  
+**GitHub:** [github.com/vicky-gupta](https://github.com/vicky-gupta)
 
 ---
 
