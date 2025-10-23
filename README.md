@@ -1,4 +1,4 @@
-# 🧠 Computer Vision Projects by PR Lab – Summer Term 2024
+# 🧠 Computer Vision Projects – Summer Term 2024
 
 <p float="left">
   <img src="images/faulogosvg.svg" width="400" height="400" />
