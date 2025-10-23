@@ -1,7 +1,7 @@
 # 🧠 Computer Vision Projects by PR Lab – Summer Term 2024
 
 <p float="left">
-  <img src="images/faulogo.png" width="400" height="400"/> <!-- Adjust width as needed -->
+  <img src="images/faulogosvg.svg" width="400" height="400"/> <!-- Adjust width as needed -->
   <img src="images/prlab.png" width="400" height="400"/> <!-- Adjust width as needed -->
 </p>
 
